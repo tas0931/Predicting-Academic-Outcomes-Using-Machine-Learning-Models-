@@ -47,4 +47,4 @@ Logistic regression captured linear relationships effectively.
 
 Decision trees were unstable due to noise and imbalance.
 
-Conclusion: Neural networks provided the best overall results, though improvements are needed for minority class detection (e.g., oversampling, advanced loss functions).
+**Conclusion:** Neural networks provided the best overall results, though improvements are needed for minority class detection (e.g., oversampling, advanced loss functions).
