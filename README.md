@@ -1,9 +1,11 @@
-📘 Project Summary: Predicting Academic Outcomes
+📘 Project Summary: Predicting Academic Outcomes [CSE422: Artificial Intelligence]
 Problem Focus: Educational data mining aims to predict student outcomes (graduation, dropout, continuous enrollment) to identify at-risk students early and improve retention programs.
 
 Objective: Build and evaluate machine learning models to classify students into three groups: enrolled, graduate, and dropout, based on social, economic, academic, and cultural factors.
 
-Dataset:
+Dataset: 
+
+link--https://drive.google.com/drive/folders/1bD49bV95E4OAmyI5TXnW-stWcZvtvCtP?usp=sharing
 
 4,424 samples, 24 features (7 quantitative, 17 categorical).
 
@@ -11,7 +13,7 @@ Target variable: categorical (Graduate, Dropout, Enrolled).
 
 Issues: class imbalance (Graduate > Dropout > Enrolled), missing values (~10%).
 
-Preprocessing:
+**Preprocessing:**
 
 Dropped rows with missing target labels.
 
