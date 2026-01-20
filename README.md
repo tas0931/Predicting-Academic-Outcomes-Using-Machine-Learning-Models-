@@ -1,9 +1,9 @@
-📘 Project Summary: Predicting Academic Outcomes [CSE422: Artificial Intelligence]
-Problem Focus: Educational data mining aims to predict student outcomes (graduation, dropout, continuous enrollment) to identify at-risk students early and improve retention programs.
+**📘 Project Summary: Predicting Academic Outcomes [CSE422: Artificial Intelligence]**
+**Problem Focus:** Educational data mining aims to predict student outcomes (graduation, dropout, continuous enrollment) to identify at-risk students early and improve retention programs.
 
-Objective: Build and evaluate machine learning models to classify students into three groups: enrolled, graduate, and dropout, based on social, economic, academic, and cultural factors.
+**Objective:** Build and evaluate machine learning models to classify students into three groups: enrolled, graduate, and dropout, based on social, economic, academic, and cultural factors.
 
-Dataset: 
+**Dataset:** 
 
 link--https://drive.google.com/drive/folders/1bD49bV95E4OAmyI5TXnW-stWcZvtvCtP?usp=sharing
 
@@ -19,13 +19,13 @@ Dropped rows with missing target labels.
 
 Removed redundant features (e.g., parental occupation/qualification).
 
-Imputation: median for numeric, mode for categorical.
+**Imputation:** median for numeric, mode for categorical.
 
 One-hot encoding for categorical variables.
 
 Standardization of numeric features.
 
-Models Used:
+**Models Used:**
 
 Neural Network: Best performance (62% accuracy), but weak recall for Enrolled class.
 
@@ -35,9 +35,9 @@ Decision Tree: Underperformed (52% accuracy), sensitive to imbalance and high-di
 
 K-Means Clustering: Applied as unsupervised learning, but lower performance compared to supervised models.
 
-Evaluation Metrics: Accuracy, precision, recall, F1-score, ROC curves.
+**Evaluation Metrics:** Accuracy, precision, recall, F1-score, ROC curves.
 
-Key Findings:
+**Key Findings:**
 
 Severe class imbalance hindered detection of Enrolled students.
 
